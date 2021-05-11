@@ -1,0 +1,2 @@
+<b>- Index.php</b> takes two inputs i.e., number of quotes and the category of quote (funny or inspirational) which is sent as JSON data through cURL to get a response as JSON data from an external URL that is api.php.
+<b>-</b> The site is hosted at [Click here](https://adyarath.in/) . To check the api use the contents of index.php in your website or localhost :)
