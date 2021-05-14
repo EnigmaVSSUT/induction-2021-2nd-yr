@@ -9,6 +9,6 @@
 - Use Node **Native functions** to perform `CURD` operations.
 - Every time a operation is successful the database file that you have created should be updated.
 
-**Note :** you can consider this as an extension to the API that you have created in Task 1. Implement this feature and submit it again in the [Task Submission](./Task%20Submission) creating a folder by your Name. Write a detailed README explaining how you implemented this task.
+**Note :** you can consider this as an extension to the API that you have created in Task 1. Implement this feature and submit it again in the [Task Submission](.././Task%20Submission) creating a folder by `your Name task 2`. Write a detailed README explaining how you implemented this task.
 
 #### All the best !!
