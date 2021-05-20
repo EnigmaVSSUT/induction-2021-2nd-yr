@@ -1,0 +1,210 @@
+{
+    "inspirational": [
+        {
+            "id": "1",
+            "quote": "It is no use going back to yesterday, because I was a different person then.",
+            "category": "inspirational"
+        },
+        {
+            "id": "2",
+            "quote": "Do what you feel in your heart to be right for you will be criticized anyway.",
+            "category": "inspirational"
+        },
+        {
+            "id": "3",
+            "quote": "The Best Way To Get Started Is To Quit Talking And Begin Doing.",
+            "category": "inspirational",
+            "submit": "success"
+        },
+        {
+            "id": "4",
+            "quote": "The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty.",
+            "category": "inspirational"
+        },
+        {
+            "id": "5",
+            "quote": "Don’t Let Yesterday Take Up Too Much Of Today.",
+            "category": "inspirational"
+        },
+        {
+            "id": "6",
+            "quote": "You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character.",
+            "category": "inspirational"
+        },
+        {
+            "id": "7",
+            "quote": "It’s Not Whether You Get Knocked Down, It’s Whether You Get Up.",
+            "category": "inspirational",
+            "submit": "success"
+        },
+        {
+            "id": "8",
+            "quote": "If You Are Working On Something That You Really Care About, You Don’t Have To Be Pushed. The Vision Pulls You.",
+            "category": "inspirational"
+        },
+        {
+            "id": "9",
+            "quote": "People Who Are Crazy Enough To Think They Can Change The World, Are The Ones Who Do.",
+            "category": "inspirational"
+        },
+        {
+            "id": "10",
+            "quote": "Failure Will Never Overtake Me If My Determination To Succeed Is Strong Enough.",
+            "category": "inspirational"
+        },
+        {
+            "id": "11",
+            "quote": "Entrepreneurs Are Great At Dealing With Uncertainty And Also Very Good At Minimizing Risk. That’s The Classic Entrepreneur.",
+            "category": "inspirational"
+        },
+        {
+            "id": "12",
+            "quote": "We May Encounter Many Defeats But We Must Not Be Defeated.",
+            "category": "inspirational"
+        },
+        {
+            "id": "13",
+            "quote": "Knowing Is Not Enough; We Must Apply. Wishing Is Not Enough; We Must Do.",
+            "category": "inspirational",
+            "submit": "success"
+        },
+        {
+            "id": "14",
+            "quote": "Imagine Your Life Is Perfect In Every Respect; What Would It Look Like?",
+            "category": "inspirational"
+        },
+        {
+            "id": "15",
+            "quote": "We Generate Fears While We Sit. We Overcome Them By Action.",
+            "category": "inspirational"
+        },
+        {
+            "id": "16",
+            "quote": "Whether You Think You Can Or Think You Can’t, You’re Right.",
+            "category": "inspirational"
+        },
+        {
+            "id": "17",
+            "quote": "Security Is Mostly A Superstition. Life Is Either A Daring Adventure Or Nothing.",
+            "category": "inspirational",
+            "submit": "success"
+        },
+        {
+            "id": "18",
+            "quote": "The Man Who Has Confidence In Himself Gains The Confidence Of Others.",
+            "category": "inspirational"
+        },
+        {
+            "id": "19",
+            "quote": "The Only Limit To Our Realization Of Tomorrow Will Be Our Doubts Of Today.",
+            "category": "inspirational"
+        },
+        {
+            "id": "20",
+            "quote": "Creativity Is Intelligence Having Fun.",
+            "category": "inspirational"
+        }
+    ],
+    "funny": [
+        {
+            "id": "1",
+            "quote": "I am not superstitious, but I am a little stitious.",
+            "category": "funny"
+        },
+        {
+            "id": "2",
+            "quote": "People say nothing is impossible, but I do nothing every day.",
+            "category": "funny"
+        },
+        {
+            "id": "3",
+            "quote": "If I were two-faced, would I be wearing this one?",
+            "category": "funny"
+        },
+        {
+            "id": "4",
+            "quote": "I love being married. It’s so great to find that one special person you want to annoy for the rest of your life.",
+            "category": "funny"
+        },
+        {
+            "id": "5",
+            "quote": "I want my children to have all the things I couldn’t afford. Then I want to move in with them.",
+            "category": "funny"
+        },
+        {
+            "id": "6",
+            "quote": "Insomnia sharpens your math skills because you spend all night calculating how much sleep you’ll get if you’re able to fall asleep right now.",
+            "category": "funny"
+        },
+        {
+            "id": "7",
+            "quote": "I walk around like everything’s fine, but deep down, inside my shoe, my sock is sliding off.",
+            "category": "funny"
+        },
+        {
+            "id": "8",
+            "quote": "I haven’t spoken to my wife in years. I didn’t want to interrupt her.",
+            "category": "funny"
+        },
+        {
+            "id": "9",
+            "quote": "I used to sell furniture for a living. The trouble was, it was my own.",
+            "category": "funny"
+        },
+        {
+            "id": "10",
+            "quote": "There’s nothing wrong with you that an expensive operation can’t prolong.",
+            "category": "funny"
+        },
+        {
+            "id": "11",
+            "quote": "Someone asked me, if I were stranded on a desert island what book would I bring: ‘How to Build a Boat.",
+            "category": "funny"
+        },
+        {
+            "id": "12",
+            "quote": "There is no sunrise so beautiful that it is worth waking me up to see it.",
+            "category": "funny"
+        },
+        {
+            "id": "13",
+            "quote": "Truth hurts. Maybe not as much as jumping on a bicycle with a seat missing, but it hurts.",
+            "category": "funny"
+        },
+        {
+            "id": "14",
+            "quote": "I never feel more alone than when I’m trying to put sunscreen on my back.",
+            "category": "funny"
+        },
+        {
+            "id": "15",
+            "quote": "Marriage is like an unfunny, tense version of Everybody Loves Raymond, but it doesn’t last 22 minutes. It lasts forever.",
+            "category": "funny"
+        },
+        {
+            "id": "16",
+            "quote": "I’m not insane. My mother had me tested.",
+            "category": "funny"
+        },
+        {
+            "id": "17",
+            "quote": "Gentlemen, you can’t fight in here. This is the war room.",
+            "category": "funny"
+        },
+        {
+            "id": "18",
+            "quote": "Whoever established the high road and how high it should be should be fired.",
+            "category": "funny"
+        },
+        {
+            "id": "19",
+            "quote": "Instant gratification takes too long.",
+            "category": "funny"
+        },
+        {
+            "id": "20",
+            "quote": "I admit that I live in the past, but only because housing is so much cheaper.",
+            "category": "funny"
+        }
+    ]
+}
