@@ -41,7 +41,7 @@ echo $result;?>
 <div class="mb-3" >
 <a href="https://adyarath.in/api/add.php?url=<?php echo $url; ?>" class="btn btn-success" >Create</a><br><br>
   <label for="numquo" class="form-label">Number of Quotes</label>
-  <input type="number" class="form-control" name="num" id="numquo" placeholder="Enter number of quotes" required>
+  <input type="number" class="form-control" name="num" id="numquo" min="1" placeholder="Enter number of quotes" required>
 </div>
 <label for="select" class="form-label">Choose category</label>
 <select class="form-select" name="cat" id="select" aria-label="Default select example" required>
