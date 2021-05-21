@@ -7,7 +7,6 @@ $url=$_GET["url"];
         $quotes  = $_POST['quote'];
         $category  = $_POST['category'];
        
-      
   $file = file_get_contents('quotes.json');
   $data = json_decode($file, true);
  
@@ -52,7 +51,6 @@ $_POST['id']= strval((int)($jsonfile1[$count1-1]->id)+1);
 </head>
 <body>
 
-
 <div class="container">
         <div class="row">
   <div class="mb-3"><h3>Create a Quote</h3>
@@ -65,15 +63,14 @@ $_POST['id']= strval((int)($jsonfile1[$count1-1]->id)+1);
    </div><br>
    
    <label for="select" class="form-label">Choose category</label>
-<select class="form-select" name="category" id="select" aria-label="Default select example" required>
-  <option selected disabled>Category</option>
+<select class="form-select" name="category" id="select" aria-label="Default select example" required="required">
+  <option selected disabled value="">Category</option>
   <option value="inspirational">Inspirational</option>
   <option value="funny">Funny</option>
     </select><br>
    <div class="form-actions">
      <button type="submit" name="submit" value="success" class="btn  btn-success">Create</button>
-     <button type="submit" class="btn btn-danger"><a  href="index.php" style="text-decoration:none;color:white;">Back</a></button>   
-   </div>
+    <a  href="<?php echo $url; ?>"class="btn btn-danger" >Back</a>
   </form>
         </div></div>        
 </div>

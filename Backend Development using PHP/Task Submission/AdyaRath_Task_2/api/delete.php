@@ -1,5 +1,4 @@
 <?php
- 
 session_start();$_SESSION['flag']=0;
 if (isset($_GET["id"])) {
     $id = (int) $_GET["id"];
@@ -33,8 +32,6 @@ else if($cat=="funny"){
     }
     $_SESSION['flag']=1;
     header("Location:".$url);
-  
-  
 }
 
 }

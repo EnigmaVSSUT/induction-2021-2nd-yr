@@ -1,10 +1,9 @@
 <?php
 session_start();$_SESSION['update']=0;
-
+  $url=$_REQUEST["url"];
 if (isset($_GET["id"])) {
     $id = (int) $_GET["id"];
     $category=$_GET["cat"];
-   
     $getfile = file_get_contents('quotes.json');
     $jsonfile = json_decode($getfile, true);
     $jsonfile = $jsonfile[$category];
@@ -26,7 +25,7 @@ $post["id"]=strval($id);
 
     if ($jsonfile) {
         $_SESSION['update']=1;
-         $url=$_REQUEST["url"];
+       
         unset($all[$category][$id]);
         $all[$category][$id] = $post;
         $all[$category] = array_values($all[$category]);
@@ -88,7 +87,7 @@ $post["id"]=strval($id);
     
    <div class="form-actions">
     <button type="submit" name="update" class="btn btn-success">Update</button>
-    <a class="btn btn btn-primary" href="index.php">Back</a>
+    <a class="btn btn btn-primary" href="<?php echo $url;?>">Back</a>
    </div>
   </div>
   </form>

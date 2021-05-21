@@ -1,18 +1,17 @@
 <?php
-$ch = curl_init();
-
-curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
-$html = curl_exec($ch);
-
-$redirectedUrl = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
-curl_close($ch);
-
 $num=$_REQUEST['num'];
 $cat=$_REQUEST['cat'];
 $url=$_REQUEST['url'];
 $getfile = file_get_contents('quotes.json');
 $jsonfile = json_decode($getfile);
-echo '<div class="container">
+ ?>  
+     
+    <?php  
+    if($cat=="inspirational"){
+      $count=count($jsonfile->inspirational);
+      if($count>=$num){
+    $no=0;
+    echo '<div class="container">
 
  <div class ="row">
   <div class="col-md-12">
@@ -22,13 +21,7 @@ echo '<div class="container">
      <th>Quotes</th>
      <th>Category</th>
      <th>Action</th>
-    </tr>'; ?>  
-     
-    <?php  
-    if($cat=="inspirational"){
-      $count=count($jsonfile->inspirational);
-      if($count>=$num){
-    $no=0;
+    </tr>';
     foreach (array_slice($jsonfile->inspirational,rand(0,($count-$num)),$num)as $index=>$obj ): 
    
       $no++;
@@ -46,9 +39,13 @@ echo '<div class="container">
     echo $redirectedUrl;
      endforeach;
     }
+    else if($count==0){
+         echo "<script>alert('No more inspiration quotes please add some!')</script>";
+      header("Location:".$url);
+    }
     else{
       echo "<script>alert('Try less number of quotes')</script>";
-      header("Location: ../index.php");
+      header("Location:".$url);
     }
     
     }
@@ -56,6 +53,17 @@ echo '<div class="container">
       $count1=count($jsonfile->funny);
       if($count1>=$num){
         $no=0;
+        echo '<div class="container">
+
+ <div class ="row">
+  <div class="col-md-12">
+   <table class="table table-striped table-bordered table-hover">
+    <tr>
+     <th>No.</th>
+     <th>Quotes</th>
+     <th>Category</th>
+     <th>Action</th>
+    </tr>';
         foreach (array_slice($jsonfile->funny,rand(0,($count1-$num)),$num)as $index=>$obj ): 
        
           $no++;
@@ -73,9 +81,13 @@ echo '<div class="container">
         
          endforeach;
         }
+         else if($count1==0){
+         echo "<script>alert('No more funny quotes please add some!')</script>";
+      header("Location:".$url);
+    }
         else{
            echo "<script>alert('Try less number of quotes')</script>";
-           header("Location: ../index.php");
+           header("Location:".$url);
         }
         
      }
@@ -84,12 +96,4 @@ echo '<div class="container">
   </div> 
  </div>
 </div>';
-
-
-  
-
-
-  
-
-
 ?>

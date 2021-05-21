@@ -39,13 +39,13 @@ echo $result;?>
  
 
 <div class="mb-3" >
-<button class="btn btn-success" type="submit"><a href="https://adyarath.in/api/add.php?url=<?php echo $url; ?>" style="text-decoration:none;color:white;">Create</a></button><br><br>
+<a href="https://adyarath.in/api/add.php?url=<?php echo $url; ?>" class="btn btn-success" >Create</a><br><br>
   <label for="numquo" class="form-label">Number of Quotes</label>
   <input type="number" class="form-control" name="num" id="numquo" placeholder="Enter number of quotes" required>
 </div>
 <label for="select" class="form-label">Choose category</label>
 <select class="form-select" name="cat" id="select" aria-label="Default select example" required>
-  <option selected disabled>Category</option>
+  <option selected disabled value="">Category</option>
   <option value="inspirational">Inspirational</option>
   <option value="funny">Funny</option>
  
